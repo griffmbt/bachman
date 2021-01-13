@@ -1,0 +1,1022 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+
+
+/* ------ HEADER ------*/
+
+.header-cinema {
+	width: 100%;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.header__sinc__img {
+	width: 112px;
+
+}
+
+.header__online {
+	display: flex;
+	flex-direction: row;
+	margin-top: 97px; 
+
+}
+
+.header__globe, .header__clock, .header__calendar {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.header__globe, .header__clock {
+	margin-right: 40px;
+}
+
+.header__globe__img, .header__clock__img, .header__calendar__img {
+	margin-right: 8px;
+}
+
+.header__globe__span, .header__clock__span, .header__calendar__span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 115%;
+}
+
+
+h1 {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 101.38%;
+	margin: 30px 0 30px 0;
+}
+
+.header__p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.header-cinema__block1 {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.header-cinema__block1__img {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-left: 20%;
+}
+.header-cinema__block1__img1_1, .header-cinema__block1__img1_2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-cinema__block1__img1 {
+	display: block;
+	margin-top: -20px;
+	margin-left: 30px;
+	width: 90%;
+}
+
+.header-cinema__block1__img2 {
+	display: block;
+	width: 90%;
+}
+
+
+.header-cinema__plate {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 45px;
+	background: #1E4681;
+	border-radius: 5px;
+	transform: rotate(-4deg);
+	color: white;
+	line-height: 32.5px;
+	width: 45%;
+	margin: 10% 0 20% 20%;
+}
+
+.header-cinema__plate__p1 {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 130%;
+}
+
+.header-cinema__plate__p2 {
+	font-size: 20px;
+	text-align: right;
+}
+
+
+/*  - -------------------------- MEDIA TABLET-----------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	header {
+		max-width: 990px;
+	}
+	.header-cinema {
+		width: 100%;
+	}
+
+	.header__sinc__img {
+		width: 64.87px;
+	}
+
+	.header__online {
+		margin-top: 57px; 
+	}
+
+	.header__globe__img1, .header__clock__img1, .header__calendar__img1 {
+		width: 12.74px;
+	}
+
+	.header__globe__span, .header__clock__span, .header__calendar__span {
+		font-size: 12px;
+	}
+
+	h1 {
+		font-size: 46px;
+	}
+
+	.header__p {
+		font-size: 12px;
+	}
+
+	.header-cinema__block1__img {
+	margin-left: 100px;
+}
+
+	.header-cinema__block1__img1 {
+		margin-left: 10px;
+		width: 70%;
+	}
+
+	.header-cinema__block1__img2 {
+		width: 70%;
+	}
+
+	.header-cinema__plate {
+		width: 32%;
+		padding: 20px 20px;
+		margin: 80px 0 100px 200px;
+	}
+
+	.header-cinema__plate__p1 {
+			font-size: 14px;
+	}
+
+	.header-cinema__plate__p2 {
+			font-size: 12px;
+	}
+
+}
+
+
+
+/*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
+
+@media screen and (max-width: 991px) {
+	header {
+		max-width: 500px;
+/*		margin: 36px 32px 0 35px;*/
+	}
+	.header-cinema {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.header__sinc__img {
+		width: 52.19px;
+	}
+
+	.header__online {
+		margin-top: 45px; 
+	}
+
+	.header__globe__img1, .header__clock__img1, .header__calendar__img1 {
+		width: 10.25px;
+	}
+
+		.header__globe__span, .header__clock__span, .header__calendar__span {
+		font-size: 10px;
+	}
+
+		h1 {
+		font-size: 37px;
+	}
+
+		.header__p {
+		font-size: 10px;
+	}
+
+	.header-cinema__block1 {
+		flex-wrap: wrap;
+	}
+
+	.header-cinema__block1__img {
+		margin-left: 40%;
+	}
+
+	.header-cinema__block1__img1 {
+		max-width: 60%;
+		margin-left: 10px;
+	}
+
+	.header-cinema__block1__img2 {
+		max-width: 60%;
+		margin-bottom: 5px;
+	}
+
+		.header-cinema__plate {
+		width: 31%;
+		padding: 10px 10px;
+		margin: 50px auto 20% auto;
+		min-width: 225px;
+		min-height: 93px;
+	}
+
+	.header-cinema__plate__p1 {
+			font-size: 11px;
+	}
+
+	.header-cinema__plate__p2 {
+			font-size: 10px;
+	}
+
+}
+
+
+
+
+
+/* ------END HEADER END ------*/
+
+/* ----- MAIN -------------*/
+
+.abot-course {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.abot-course-block1 {
+	display: flex;
+
+}
+
+.abot-course__h2 {
+	display: block;
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	margin-bottom: 50px;
+
+}
+
+.abot-course__block-text {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+
+}
+
+.abot-course__img1 {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-left: 15%;
+}
+
+.abot-course__text-p { 
+	display: block;
+	margin-bottom: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.abot-course__img-Ellipse2 {
+	margin-top: -30px;
+}
+
+.abot-course__img-operator {
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+
+
+/*  - -------------------------- MEDIA TABLET-----------------------------------------*/
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	main {
+		max-width: 990px;;
+	}
+	.abot-course {
+		width: 100%;
+	}
+
+	.abot-course__block-text{
+		width: 40%;
+	}
+
+	.abot-course__h2 {
+		font-size: 32px;
+		margin-bottom: 30px;
+	}
+	.abot-course__text-p {
+		font-size: 14px;
+	}
+/*	.abot-course__img-Ellipse2, .abot-course__img-operator {
+		width: 100%;
+	}*/
+	.abot-course__img1 {
+		margin-left: 10%;
+	}
+
+	.abot-course__img-Ellipse2 {
+	margin-top: -20px;
+}
+	.abot-course__img-Ellipse2__child {
+		display: block;
+		width: 80%;
+	}
+
+	.abot-course__img-operator__child {
+		display: block;
+		width: 70%;
+	}
+}
+
+/*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
+
+@media screen and (max-width: 991px) {
+	main {
+		max-width: 500px;
+	}
+
+	.abot-course {
+		width: 100%;
+	}
+	.abot-course-block1{
+		flex-wrap: wrap;
+	}
+
+	.abot-course__block-text {
+		width: 90%;
+	}
+	.abot-course__h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.abot-course__text-p {
+		font-size: 12px;
+	}
+	.abot-course__img1 {
+		margin-left: 20%;
+		margin-top: -50px;
+	}
+	.abot-course__img-Ellipse2 {
+		margin-top: -15px;
+	}
+
+	.abot-course__img-Ellipse2__child {
+		width: 70%;
+	} 
+
+		.abot-course__img-operator__child {
+		width: 60%;
+	}
+
+}
+
+
+/*---------------   end Media  ----------       */
+
+.abot-course__block2 {
+	display: flex;
+}
+
+.abot-course__img2 {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 80px;
+}
+
+
+.abot-course__img-Ellipse3__img {
+	width: 100%;
+	margin-top: -20px;
+}
+.abot-course__img-photo_1__img {
+	width: 100%;
+}
+
+.bot-course__time {
+	display: flex;
+	flex-direction: row;
+	margin-top: 165px;
+}
+
+.bot-course__time1, .bot-course__time2, .bot-course__time3 {
+	margin-left: 90px;
+	width: 15%;
+}
+
+.bot-course__time1-p1, .bot-course__time2-p1, .bot-course__time3-p1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 130%;
+}
+
+.bot-course__time1-p2, .bot-course__time2-p2, .bot-course__time3-p2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+
+
+/*  - -------------------------- MEDIA TABLET-----------------------------------------*/
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+	.bot-course__time1, .bot-course__time2, .bot-course__time3 {
+		margin-left: 50px;
+	}
+	.bot-course__time1-p1, .bot-course__time2-p1, .bot-course__time3-p1 {
+		font-size: 15px;
+	}
+	.bot-course__time1-p2, .bot-course__time2-p2, .bot-course__time3-p2 {
+		font-size: 11px;
+	}
+	.abot-course__img-Ellipse3__img {
+		width: 70%;
+		margin-top: -15px;
+	}
+	.abot-course__img-photo_1__img {
+		width: 70%;
+	}
+
+}
+
+
+/*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
+
+@media screen and (max-width: 991px) {
+	.abot-course__block2{
+		flex-direction: column-reverse;
+	}
+
+	.bot-course__time{
+		flex-wrap: wrap;
+		width: 220px;
+		margin-top: 60px;
+	}
+
+	.bot-course__time1, .bot-course__time2, .bot-course__time3 {
+		margin-left: 30px;
+		min-width: 86px;
+	}
+	.bot-course__time1-p1, .bot-course__time2-p1, .bot-course__time3-p1 {
+		font-size: 12px;
+	}
+	.bot-course__time1-p2, .bot-course__time2-p2, .bot-course__time3-p2 {
+		font-size: 10px;
+	}
+
+
+	.bot-course__time1, .bot-course__time2 {
+		margin-bottom: 30px;
+	}
+	.bot-course__time1 {
+		margin-left: 0;
+	}
+		.bot-course__time3 {
+		margin-left: 0;
+	}
+
+/*	.bot-course__time2 {
+		margin-right: 40%;
+	}*/
+/*	.abot-course__img2 {
+		justify-content: flex-end;
+	}
+*/
+	.abot-course__img2_0 {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.abot-course__img2 {
+		max-width: 200px;
+		margin-top: 0;
+	}
+
+	.abot-course__img-Ellipse3__img {
+		width: 60%;
+		margin-top: -10px;
+	}
+	.abot-course__img-photo_1__img {
+		display: flex;
+		justify-content: flex-end;
+		width: 60%;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* ---- Блок lessons "Формат занятий"------*/
+
+.lessons {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.lessons__h2 {
+	display: block;
+	left: 121px;
+	top: 2000px;
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 101.38%;
+}
+
+.lessons__text {
+	display: flex;
+	margin-top: 100px;
+}
+
+.lessons__text2, .lessons__text3 {
+	margin-left: 120px;
+}
+
+.lessons__text1-p1, .lessons__text2-p1, .lessons__text3-p1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 130%;
+	color: #1E4681;
+}
+
+.lessons__text1-p2, .lessons__text2-p2, .lessons__text3-p2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+.lessons__text1-p1, .lessons__text2-p1, .lessons__text3-p1 {
+	margin-bottom: 10px;
+}
+
+.lessons__text1, .lessons__text2, .lessons__text3 {
+	width: 22%;
+}
+
+
+/*.lessons__text1-p2 {
+	width: 223px;
+}
+
+.lessons__text2-p2 {
+	width: 271px;
+}
+
+.lessons__text3-p2 {
+	width: 245px;
+}*/
+
+
+/*  - -------------------------- MEDIA TABLET-----------------------------------------*/
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	.lessons {
+		margin-top: 100px;
+		width: 100%;
+	}
+	.lessons__h2 {
+		font-size: 32px;
+	}
+	.lessons__text {
+		margin-top: 7%;
+		width: 90%;
+	}
+	.lessons__text2, .lessons__text3 {
+		margin-left: 5%;
+	}
+	.lessons__text1-p1, .lessons__text2-p1, .lessons__text3-p1 {
+		font-size: 15px;
+	}
+	.lessons__text1-p2, .lessons__text2-p2, .lessons__text3-p2 {
+		font-size: 11px;
+	}
+}
+
+/*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
+
+@media screen and (max-width: 991px) {
+	.lessons {
+		margin-top: 50px;
+		width: 100%;
+	}
+	.lessons__h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.lessons__text {
+		flex-direction: column;
+		margin-top: 4%;
+	}
+	.lessons__text1, .lessons__text2, .lessons__text3 {
+		margin-left: 0;
+	}
+	.lessons__text2, .lessons__text3{
+		margin-top: 30px;
+	}
+	.lessons__text1-p1, .lessons__text2-p1, .lessons__text3-p1 {
+		font-size: 12px;
+		min-width: 200px;
+	}
+	.lessons__text1-p2, .lessons__text2-p2, .lessons__text3-p2 {
+		font-size: 10px;
+		min-width: 200px;
+	}
+}
+
+
+
+/* ----END ---"Формат занятий" ------*/
+
+
+
+
+
+
+
+/* -------Блок learn "Что узнаем" ----*/
+
+.learn {
+	display: flex;
+	margin-top: 200px;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.learn__block3 {
+	width: 55%;
+}
+
+.learn__h2 {
+
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 101.38%;
+	margin-bottom: 60px;
+	margin-right: 81px;
+}
+
+.learn__list {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.learn__block4 {
+	margin-left: 5%;
+}
+
+.learn__block4_1 {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+.learn__block4_2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.learn__photo_1_1 {
+	max-width: 274px;;
+	margin-bottom: -13px;
+}
+.learn__Ellipse4 {
+	max-width: 290px;
+}
+
+.learn__block4_2 {
+	margin-top: 130px;
+}
+
+.learn__Ellipse4__img {
+	margin-right: 30px;
+}
+.learn__Ellipse5__img {
+	margin-right: -10px;
+}
+
+.learn__Rectangle_2__img {
+	margin-right: -40px;
+}
+
+/*  - -------------------------- MEDIA TABLET-----------------------------------------*/
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	.learn {
+		margin-top: 150px;
+		width: 100%;
+	}
+	.learn__h2 {
+		font-size: 32px;
+	}
+	.learn__list {
+	font-size: 14px;
+	max-width: 80%;
+	}
+
+	.learn__Ellipse4__img, .learn__Ellipse5__img {
+		max-width: 100px;
+	}
+	.learn__photo_1_1__img {
+		max-width: 230px;
+	}
+	.learn__photo_2_1__img {
+		max-width: 230px;
+	}
+	.learn__Rectangle_2__img{
+		max-width: 300px;
+	}
+}
+/*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
+
+
+	@media screen and (max-width: 991px) {
+
+	.learn {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.learn__block3 {
+		width: 90%;
+	}
+
+	.learn__h2 {
+		font-size: 26px;
+		margin-bottom: 10%;
+	}
+
+	.learn__list {
+		font-size: 12px;
+		margin-left: 3%;
+	}
+
+	.learn__block4_1 {
+		margin-top: -470px;
+		margin-left: 40%;
+	}
+
+	.learn__Ellipse4__img, .learn__Ellipse5__img {
+		width: 50%;
+	}
+
+	.learn__Ellipse4__img {
+		margin-left: -80px;
+	}
+
+	.learn__photo_1_1__img {
+		width: 50%;
+		margin-bottom: -147px;
+	}
+
+	.learn__block4_2 {
+		margin-top: 50px;
+		margin-left: 10%;
+	}
+
+	.learn__photo_2_1__img {
+		width: 50%;
+	}
+
+	.learn__Rectangle_2__img {
+		width: 50%;
+		margin-left: 20px;
+
+	}
+	.learn__Rectangle_2 {
+		margin-top: -5px;
+	}
+}
+/* ------- END --"Что узнаем" ----*/
+
+
+/* -----RENAT END-------------*/
+
+/* -----PETRARCA START-----*/
+
+.autors {
+	margin-top: 215px;
+	display: flex;
+}
+
+.autors-info {
+	display: flex;
+}
+
+.autors-hover {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background: #FFFFFF;
+	border: 1px solid black;
+	border-radius: 50%;
+	box-shadow: 1px 1px 8px #5784C8;
+	text-align: center;
+}
+
+.pet-h2 {
+	font-family: Roboto Slab;
+	font-size: 55px;
+	font-weight: 700;
+	padding-top: 90px;
+	padding-left: 121px;
+	margin-bottom: 50px;
+}
+
+.course-complete {
+	background: #EFEFEF;
+	padding-bottom: 100px;
+}
+
+.course-review {
+	position: relative;
+	width: 791px;
+	min-width: 310px;
+	height: 451px;
+	left: 126px;
+	background: #FFFFFF;
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	/*padding-top: 50px;
+	padding-left: 40px;
+	padding-right: 40px;*/
+	padding: 50px 40px 0 40px;
+}
+
+.review-p {
+	font-size: 20px;
+}
+
+.review-info {
+	position: absolute;
+	display: flex;
+	padding-top: 50px;
+	padding: auto;
+}
+
+.info-column {
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.start-course {
+    background: #9DC9C8;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    padding-left: 5vh;
+}
+
+.start-hheight {
+    margin-bottom: 7.5vh;
+	font-family: Roboto Slab;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.start-h14 {
+    font-size: 14px;
+}
+
+.start-p10 {
+    font-size: 10px;
+}
+
+.start-boxflex {
+    display: flex;
+}
+
+.start-wide {
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+}
+
+.start-price {
+    font-size: 46px;
+    margin-bottom: 7.5vh;
+}
+
+footer {
+	position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+	padding-left: 5vh;
+}
+
+.footer-content {
+    margin-bottom: 2vh;
+}
+
+.footer-logos {
+    margin: 0 1vh 1vh 0;
+}
+
+.footer-copyrights {
+	margin-top: 100px;
+    font-size: 18px;
+}
+
+.footer-contacts {
+	display: block;
+    width: 300px;
+    position: absolute;
+    right: 5vh;
+    top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.footer-contacts-p {
+	padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .footer-contacts {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-contacts {
+		position: relative;
+		padding-left: 5vh;
+    }
+}
+
+/* -----PETRARCA END-----*/
