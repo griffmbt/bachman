@@ -667,6 +667,7 @@ h1 {
 	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
+	margin-bottom: 10%;
 }
 
 .learn__block3 {
@@ -832,26 +833,10 @@ h1 {
 
 /* -----PETRARCA START-----*/
 
-.autors {
-	margin-top: 215px;
-	display: flex;
+.course-complete {
+	background: #EFEFEF;
+	padding-bottom: 100px;
 }
-
-.autors-info {
-	display: flex;
-}
-
-.autors-hover {
-	position: absolute;
-	width: 28px;
-	height: 28px;
-	background: #FFFFFF;
-	border: 1px solid black;
-	border-radius: 50%;
-	box-shadow: 1px 1px 8px #5784C8;
-	text-align: center;
-}
-
 .pet-h2 {
 	font-family: Roboto Slab;
 	font-size: 55px;
@@ -861,42 +846,48 @@ h1 {
 	margin-bottom: 50px;
 }
 
-.course-complete {
-	background: #EFEFEF;
-	padding-bottom: 100px;
-}
 
 .course-review {
 	position: relative;
-	width: 791px;
+	max-width: 791px;
 	min-width: 310px;
-	height: 451px;
+	max-height: 451px;
+	min-height: 261px;
 	left: 126px;
 	background: #FFFFFF;
 	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 	border-radius: 30px;
-	/*padding-top: 50px;
-	padding-left: 40px;
-	padding-right: 40px;*/
-	padding: 50px 40px 0 40px;
+	padding: 40px 40px 0 40px;
 }
 
 .review-p {
+	font-family: Roboto;
 	font-size: 20px;
-}
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	}
 
 .review-info {
-	position: absolute;
 	display: flex;
-	padding-top: 50px;
 	padding: auto;
+	padding-top: 3%;
 }
 
 .info-column {
 	flex-direction: column;
-	padding-top: 30px;
+	padding-top: 5%;
+	padding-left: 30px;
 }
 
+.info-text {
+	margin: 0 0 10% 0;
+	font-family: Roboto Slab;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+}
 
 /* ------          */
 
@@ -938,6 +929,55 @@ h1 {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
+	.pet-h2 {
+		font-family: Roboto Slab;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		margin-bottom: 26px;
+		padding-top: 51px;
+	}
+	
+	.course-png {
+		max-width: 110px;
+	}
+
+	.course-review {
+		width: 458.12px;
+		height: 261.2px;
+		left: 126px;
+		padding: 20px 26px 0 26px;
+	}
+
+	.review-p {
+		font-family: Roboto;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 18px;
+	}
+
+	.info-text {
+		font-family: Roboto Slab;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		margin-bottom: 0;
+	}
+	
+	.info-pic {
+		width: 18px;
+		height: 18px;
+	}
+
+	.course-review {
+		padding: 23px 26px 0 26px ;
+	}
+
+	.course-complete {
+		padding-bottom: 65px;
+	}
+
 	.start-hheight {
 		font-size: 32px;
 	}
@@ -987,22 +1027,26 @@ footer {
     top: 5vh;
     margin-bottom: 2vh;
 }
+.footer-contacts-p {
+	font-size: 25px;
+}
 
 .footer-contacts-p {
 	padding-right: 15px;
 }
 
-@media (max-width: 768px) {
-	.footer-contacts {
-		position: static;
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	.footer-content__img-sinc {
+		width: 10%;
+	}
+	.footer-logos {
+		width: 3%;
+	}
+	.footer-copyrights {
+		font-size: 10px;
+	}
+	.footer-contacts-p {
+		font-size: 14px;
 	}
 }
-
-@media (max-width: 768px) {
-    .footer-contacts {
-		position: relative;
-		padding-left: 5vh;
-    }
-}
-
 /* -----PETRARCA END-----*/
