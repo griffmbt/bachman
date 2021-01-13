@@ -897,6 +897,9 @@ h1 {
 	padding-top: 30px;
 }
 
+
+/* ------          */
+
 .start-course {
     background: #9DC9C8;
     width: 100%;
@@ -913,11 +916,11 @@ h1 {
 }
 
 .start-h14 {
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .start-p10 {
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .start-boxflex {
@@ -930,9 +933,26 @@ h1 {
 }
 
 .start-price {
-    font-size: 46px;
+    font-size: 80px;
     margin-bottom: 7.5vh;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+	.start-hheight {
+		font-size: 32px;
+	}
+	.start-price {
+		font-size: 46px;
+	}
+	.start-h14 {
+		font-size: 14px;
+	}
+	.start-p10 {
+		font-size: 10px;
+	}
+}
+
+/*=======         END  start-course            ============*/
 
 footer {
 	position: relative;
@@ -973,9 +993,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .footer-contacts {
-        position: static;
-    }
+	.footer-contacts {
+		position: static;
+	}
 }
 
 @media (max-width: 768px) {
