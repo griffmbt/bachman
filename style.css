@@ -6,13 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header, main {
     max-width: 1270px;
     margin: 0 auto;
 }
-
-
 
 /* ------ HEADER ------*/
 
@@ -25,7 +22,6 @@ header, main {
 
 .header__sinc__img {
 	width: 112px;
-
 }
 
 .header__online {
@@ -80,12 +76,12 @@ h1 {
 	flex-direction: row;
 }
 
-
 .header-cinema__block1__img {
 	display: flex;
 	flex-direction: column-reverse;
 	margin-left: 20%;
 }
+
 .header-cinema__block1__img1_1, .header-cinema__block1__img1_2 {
 	display: flex;
 	justify-content: flex-end;
@@ -102,7 +98,6 @@ h1 {
 	display: block;
 	width: 90%;
 }
-
 
 .header-cinema__plate {
 	display: flex;
@@ -130,13 +125,13 @@ h1 {
 	text-align: right;
 }
 
-
 /*  - -------------------------- MEDIA TABLET-----------------------------------------*/
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
 	header {
 		max-width: 990px;
 	}
+
 	.header-cinema {
 		width: 100%;
 	}
@@ -167,7 +162,7 @@ h1 {
 
 	.header-cinema__block1__img {
 	margin-left: 100px;
-}
+	}
 
 	.header-cinema__block1__img1 {
 		margin-left: 10px;
@@ -191,18 +186,15 @@ h1 {
 	.header-cinema__plate__p2 {
 			font-size: 12px;
 	}
-
 }
-
-
 
 /*  - -------------------------- MEDIA MOBILE-----------------------------------------*/
 
 @media screen and (max-width: 991px) {
 	header {
 		max-width: 500px;
-/*		margin: 36px 32px 0 35px;*/
 	}
+
 	.header-cinema {
 		display: flex;
 		flex-direction: column;
@@ -221,15 +213,15 @@ h1 {
 		width: 10.25px;
 	}
 
-		.header__globe__span, .header__clock__span, .header__calendar__span {
+	.header__globe__span, .header__clock__span, .header__calendar__span {
 		font-size: 10px;
 	}
 
-		h1 {
+	h1 {
 		font-size: 37px;
 	}
 
-		.header__p {
+	.header__p {
 		font-size: 10px;
 	}
 
@@ -251,7 +243,7 @@ h1 {
 		margin-bottom: 5px;
 	}
 
-		.header-cinema__plate {
+	.header-cinema__plate {
 		width: 31%;
 		padding: 10px 10px;
 		margin: 50px auto 20% auto;
@@ -266,14 +258,10 @@ h1 {
 	.header-cinema__plate__p2 {
 			font-size: 10px;
 	}
-
 }
 
-
-
-
-
 /* ------END HEADER END ------*/
+
 
 /* ----- MAIN -------------*/
 
@@ -282,9 +270,9 @@ h1 {
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
 .abot-course-block1 {
 	display: flex;
-
 }
 
 .abot-course__h2 {
@@ -294,14 +282,12 @@ h1 {
 	font-weight: bold;
 	font-size: 55px;
 	margin-bottom: 50px;
-
 }
 
 .abot-course__block-text {
 	display: flex;
 	flex-direction: column;
 	width: 55%;
-
 }
 
 .abot-course__img1 {
@@ -329,15 +315,13 @@ h1 {
 	margin-left: 30px;
 }
 
-
-
 /*  - -------------------------- MEDIA TABLET-----------------------------------------*/
-
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
 	main {
 		max-width: 990px;;
 	}
+
 	.abot-course {
 		width: 100%;
 	}
@@ -350,19 +334,19 @@ h1 {
 		font-size: 32px;
 		margin-bottom: 30px;
 	}
+
 	.abot-course__text-p {
 		font-size: 14px;
 	}
-/*	.abot-course__img-Ellipse2, .abot-course__img-operator {
-		width: 100%;
-	}*/
+
 	.abot-course__img1 {
 		margin-left: 10%;
 	}
 
 	.abot-course__img-Ellipse2 {
-	margin-top: -20px;
-}
+		margin-top: -20px;
+	}
+
 	.abot-course__img-Ellipse2__child {
 		display: block;
 		width: 80%;
@@ -384,6 +368,7 @@ h1 {
 	.abot-course {
 		width: 100%;
 	}
+
 	.abot-course-block1{
 		flex-wrap: wrap;
 	}
@@ -391,17 +376,21 @@ h1 {
 	.abot-course__block-text {
 		width: 90%;
 	}
+
 	.abot-course__h2 {
 		font-size: 26px;
 		margin-bottom: 20px;
 	}
+
 	.abot-course__text-p {
 		font-size: 12px;
 	}
+
 	.abot-course__img1 {
 		margin-left: 20%;
 		margin-top: -50px;
 	}
+
 	.abot-course__img-Ellipse2 {
 		margin-top: -15px;
 	}
@@ -410,10 +399,9 @@ h1 {
 		width: 70%;
 	} 
 
-		.abot-course__img-operator__child {
+	.abot-course__img-operator__child {
 		width: 60%;
 	}
-
 }
 
 
@@ -434,6 +422,7 @@ h1 {
 	width: 100%;
 	margin-top: -20px;
 }
+
 .abot-course__img-photo_1__img {
 	width: 100%;
 }
@@ -509,35 +498,32 @@ h1 {
 		margin-left: 30px;
 		min-width: 86px;
 	}
+
 	.bot-course__time1-p1, .bot-course__time2-p1, .bot-course__time3-p1 {
 		font-size: 12px;
 	}
+
 	.bot-course__time1-p2, .bot-course__time2-p2, .bot-course__time3-p2 {
 		font-size: 10px;
 	}
 
-
 	.bot-course__time1, .bot-course__time2 {
 		margin-bottom: 30px;
 	}
+
 	.bot-course__time1 {
 		margin-left: 0;
 	}
+
 		.bot-course__time3 {
 		margin-left: 0;
 	}
 
-/*	.bot-course__time2 {
-		margin-right: 40%;
-	}*/
-/*	.abot-course__img2 {
-		justify-content: flex-end;
-	}
-*/
 	.abot-course__img2_0 {
 		display: flex;
 		justify-content: flex-end;
 	}
+
 	.abot-course__img2 {
 		max-width: 200px;
 		margin-top: 0;
@@ -547,18 +533,13 @@ h1 {
 		width: 60%;
 		margin-top: -10px;
 	}
+
 	.abot-course__img-photo_1__img {
 		display: flex;
 		justify-content: flex-end;
 		width: 60%;
 	}
-
 }
-
-
-
-
-
 
 
 
@@ -618,22 +599,7 @@ h1 {
 	width: 22%;
 }
 
-
-/*.lessons__text1-p2 {
-	width: 223px;
-}
-
-.lessons__text2-p2 {
-	width: 271px;
-}
-
-.lessons__text3-p2 {
-	width: 245px;
-}*/
-
-
 /*  - -------------------------- MEDIA TABLET-----------------------------------------*/
-
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
 	.lessons {
@@ -689,13 +655,7 @@ h1 {
 	}
 }
 
-
-
 /* ----END ---"Формат занятий" ------*/
-
-
-
-
 
 
 
@@ -714,7 +674,6 @@ h1 {
 }
 
 .learn__h2 {
-
 	font-family: Roboto Slab;
 	font-style: normal;
 	font-weight: bold;
@@ -725,7 +684,6 @@ h1 {
 }
 
 .learn__list {
-
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -742,6 +700,7 @@ h1 {
 	flex-direction: column-reverse;
 	align-items: flex-end;
 }
+
 .learn__block4_2 {
 	display: flex;
 	flex-direction: column;
@@ -763,6 +722,7 @@ h1 {
 .learn__Ellipse4__img {
 	margin-right: 30px;
 }
+
 .learn__Ellipse5__img {
 	margin-right: -10px;
 }
@@ -779,9 +739,11 @@ h1 {
 		margin-top: 150px;
 		width: 100%;
 	}
+
 	.learn__h2 {
 		font-size: 32px;
 	}
+
 	.learn__list {
 	font-size: 14px;
 	max-width: 80%;
@@ -790,12 +752,15 @@ h1 {
 	.learn__Ellipse4__img, .learn__Ellipse5__img {
 		max-width: 100px;
 	}
+
 	.learn__photo_1_1__img {
 		max-width: 230px;
 	}
+
 	.learn__photo_2_1__img {
 		max-width: 230px;
 	}
+
 	.learn__Rectangle_2__img{
 		max-width: 300px;
 	}
@@ -804,7 +769,6 @@ h1 {
 
 
 	@media screen and (max-width: 991px) {
-
 	.learn {
 		display: flex;
 		flex-direction: column;
